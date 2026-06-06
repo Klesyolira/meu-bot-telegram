@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import os
 
 # Pega o token das variáveis de ambiente do Render
-TOKEN = os.environ.get("8623547073:AAGlpw7UpJfb7FTG4nUxAc_8judTjz058PM")
+TOKEN = os.environ.get("TOKEN_BOT")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Painel Yoru Shield conectado com sucesso!')
